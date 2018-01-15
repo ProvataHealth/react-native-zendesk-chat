@@ -8,9 +8,11 @@
  */
 
 #import "AppDelegate.h"
+#import "ChatStyling.h"
 
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
+#import <ZDCChat/ZDCChat.h>
 
 @implementation AppDelegate
 
@@ -26,6 +28,9 @@
                                                    launchOptions:launchOptions];
   rootView.backgroundColor = [[UIColor alloc] initWithRed:1.0f green:1.0f blue:1.0f alpha:1];
 
+  [ChatStyling applyStyling];
+  [ZDCChat initializeWithAccountKey:@"SEPvDUVGvKrsVylSMoHTHcNVJkhcW7ve"];
+  
   self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
   UIViewController *rootViewController = [UIViewController new];
   rootViewController.view = rootView;

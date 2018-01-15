@@ -2531,13 +2531,13 @@ jest-validate@^22.1.0:
     leven "^2.1.0"
     pretty-format "^22.1.0"
 
-jest-worker@22.0.3, jest-worker@^22.0.3:
+jest-worker@22.0.3:
   version "22.0.3"
   resolved "https://registry.yarnpkg.com/jest-worker/-/jest-worker-22.0.3.tgz#30433faca67814a8f80559f75ab2ceaa61332fd2"
   dependencies:
     merge-stream "^1.0.1"
 
-jest-worker@^22.1.0:
+jest-worker@^22.0.3, jest-worker@^22.1.0:
   version "22.1.0"
   resolved "https://registry.yarnpkg.com/jest-worker/-/jest-worker-22.1.0.tgz#0987832fe58fbdc205357f4c19b992446368cafb"
   dependencies:
@@ -3522,6 +3522,10 @@ react-devtools-core@3.0.0:
   dependencies:
     shell-quote "^1.6.1"
     ws "^2.0.3"
+
+react-native-zendesk-chat@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/react-native-zendesk-chat/-/react-native-zendesk-chat-0.2.2.tgz#3cb0cdb3d3998ebab95863fb96765751729ce621"
 
 react-native@0.52.0:
   version "0.52.0"
